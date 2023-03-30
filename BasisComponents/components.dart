@@ -120,4 +120,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
 screenNavigation(screen, context) {
   return Navigator.of(context).push(
       CupertinoPageRoute(fullscreenDialog: true, builder: (context) => screen));
-}s
+}s} 
+
+
+
